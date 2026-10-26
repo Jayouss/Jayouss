@@ -55,9 +55,9 @@
 
 ---
 
-### 🌟 Featured Flagship Project
+### 🌟 Featured Flagship Projects
 
-#### 🧠 [DocuGraph AI — Enterprise Decoupled Agentic RAG Platform](https://github.com/Jayouss/docugraph-ai)
+#### 1. 🧠 [DocuGraph AI — Enterprise Decoupled Agentic RAG Platform](https://github.com/Jayouss/docugraph-ai)
 > A production-ready, decoupled AI microservices platform combining **TypeScript (Node.js)** API Gateway with **Python (FastAPI)** AI Core.
 
 * ⚡ **Decoupled Architecture**: Node.js handles auth, token-bucket rate limiting, and WebSocket streaming; Python executes vector indexing and agent reasoning.
@@ -65,6 +65,17 @@
 * 💸 **Sub-Millisecond Semantic Cache**: Intercepts semantically identical queries in **<1ms**, eliminating redundant LLM API calls and cutting token expenses.
 * 🤖 **ReAct Agentic Workflow**: Dynamic tool selection (knowledge base search, precision calculator, and deterministic fallback synthesis).
 * 🐳 **Production-Ready**: Complete with Docker Compose orchestration, unit test coverage, and automated GitHub Actions CI.
+
+<br/>
+
+#### 2. ⚡ [HookPulse — Resilient Webhook Relay & Event Delivery Engine](https://github.com/Jayouss/hookpulse)
+> High-throughput, fault-tolerant webhook delivery platform built with **TypeScript (Node.js)** for guaranteed at-least-once event delivery.
+
+* 🔁 **Exponential Backoff with Jitter**: Intelligent retry scheduling that scales intervals to prevent thundering herd crashes on downstream endpoints.
+* 🔐 **Cryptographic Signatures**: Generates industry-standard `HMAC-SHA256` digest headers (`X-HookPulse-Signature`) with constant-time equality checks against timing attacks.
+* 🛡️ **Idempotency Protection**: Enforces strict idempotency keys to ensure duplicate network events never cause duplicate processing.
+* 📦 **Dead Letter Queue (DLQ) & Manual Replay**: Safely isolates exhausted events with complete attempt audit logs and one-click programmatic replay (`POST /api/v1/events/:id/replay`).
+* 🧪 **Automated Testing & CI/CD**: 100% passing test suite and automated GitHub Actions workflow.
 
 ---
 
