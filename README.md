@@ -77,6 +77,17 @@
 * 📦 **Dead Letter Queue (DLQ) & Manual Replay**: Safely isolates exhausted events with complete attempt audit logs and one-click programmatic replay (`POST /api/v1/events/:id/replay`).
 * 🧪 **Automated Testing & CI/CD**: 100% passing test suite and automated GitHub Actions workflow.
 
+<br/>
+
+#### 3. 🛡️ [PromptShield — High-Performance LLM Security Gateway](https://github.com/Jayouss/promptshield)
+> Sub-millisecond reverse proxy and security firewall built with **Python (FastAPI)** protecting enterprise LLM applications against prompt injections and data leaks.
+
+* 🛑 **Prompt Injection & Jailbreak Defense**: Detects instruction overrides, DAN roleplay exploits, and system prompt exfiltration based on OWASP Top 10 for LLMs.
+* 🎭 **Zero-Latency PII Masking**: Automatically detects and redacts Emails, Credit Cards, API Keys, and National IDs before prompts hit OpenAI/Anthropic.
+* ⏱️ **Ultra-Low Latency (<0.1ms)**: Pre-compiled regex automata and lightweight token counters add virtually zero overhead to AI pipelines.
+* 🔌 **Drop-In OpenAI Compatible**: Works as a drop-in replacement proxy (`POST /v1/chat/completions`) for existing LLM applications.
+* 🧪 **Attack Simulation Suite**: Complete with test harnesses and live adversarial attack verification.
+
 ---
 
 ### 📊 GitHub Activity & Metrics
