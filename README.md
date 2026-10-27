@@ -88,6 +88,17 @@
 * 🔌 **Drop-In OpenAI Compatible**: Works as a drop-in replacement proxy (`POST /v1/chat/completions`) for existing LLM applications.
 * 🧪 **Attack Simulation Suite**: Complete with test harnesses and live adversarial attack verification.
 
+<br/>
+
+#### 4. 💼 [CareerPulse — Intelligent ATS Resume Scorer & Application Tailor](https://github.com/Jayouss/careerpulse)
+> Open-source career acceleration engine built with **Python (FastAPI + CLI)** decoding ATS algorithms and auto-synthesizing tailored job applications.
+
+* 📊 **Hybrid ATS Scoring**: Blends 60% hard keyword recall across 100+ tech taxonomies with 40% dense semantic cosine similarity to eliminate false screening rejections.
+* 🔍 **Skill Gap Identification**: Instantly analyzes job descriptions against candidate profiles to pinpoint missing critical requirements.
+* ✉️ **High-Converting Cold Outreach**: Auto-generates personalized emails to hiring managers highlighting relevant GitHub architecture and matching proficiencies.
+* 🎯 **Google XYZ-Formula Bullets**: Synthesizes impact-driven experience bullets: *"Accomplished [X] as measured by [Y] by doing [Z]"*.
+* 💻 **Dual Interface**: Runs as a high-throughput REST API with interactive Swagger docs or directly in the terminal via a developer CLI tool.
+
 ---
 
 ### 📊 GitHub Activity & Metrics
