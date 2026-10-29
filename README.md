@@ -99,6 +99,17 @@
 * 🎯 **Google XYZ-Formula Bullets**: Synthesizes impact-driven experience bullets: *"Accomplished [X] as measured by [Y] by doing [Z]"*.
 * 💻 **Dual Interface**: Runs as a high-throughput REST API with interactive Swagger docs or directly in the terminal via a developer CLI tool.
 
+<br/>
+
+#### 5. 🎬 [StreamFetch — Universal Video & Stream Downloader Engine](https://github.com/Jayouss/streamfetch)
+> High-performance universal media extraction engine built with **Python (FastAPI + yt-dlp + FFmpeg)** supporting 1,800+ streaming platforms and HLS/DASH protocols.
+
+* 🌐 **Universal Platform Support**: Extracts video & audio from TikTok (no watermark), YouTube, Twitter/X, Instagram, Reddit, Vimeo, and raw `.m3u8` playlists.
+* 🖥️ **Embedded Web Dashboard**: Single-page modern dark-mode web application (paste URL ➔ preview thumbnail/formats ➔ download directly to device).
+* ⚙️ **Smart Adaptive Remuxing**: Automatic stream stitching of separate high-resolution video and audio tracks via FFmpeg.
+* 🎵 **One-Click Audio Transcoding**: High-bitrate MP3 (192kbps) audio extraction with ID3 metadata preservation.
+* 💻 **Triple Interface**: Run as a browser Web Dashboard, a high-throughput REST API, or an interactive terminal CLI (`python cli.py`).
+
 ---
 
 ### 📊 GitHub Activity & Metrics
